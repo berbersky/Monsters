@@ -29,9 +29,17 @@ body {
   min-height: 100%;
 }
 
+.btn{
+  border:none;
+  outline:none;
+  background:none;
+  display:inline;
+  padding: 0 4px;
+  font-size:30px;
+}
 .App-title {
   font-size: 32px;
-  display: block;
+  display: inline;
   width: contain;
   height: contain;
   color: white;
@@ -63,6 +71,7 @@ h1 {
   color: #3800a0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 18px;
+  display: inline;
 }
 h2 {
   color: balck;
